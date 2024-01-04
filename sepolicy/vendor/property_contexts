@@ -1,0 +1,2 @@
+ro.vendor.audio.us.proximity u:object_r:vendor_us_proximity_prop:s0 exact bool
+ro.vendor.display.type       u:object_r:vendor_display_type_prop:s0 exact string
