@@ -1,2 +1,5 @@
 get_prop(miuicamera_app, vendor_display_type_prop)
 get_prop(miuicamera_app, vendor_us_proximity_prop)
+
+allow miuicamera_app vendor_camera_data_file:dir search;
+allow miuicamera_app vendor_camera_data_file:file r_file_perms;
